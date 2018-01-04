@@ -14,5 +14,11 @@ tableextension 50101 CustomerExtension extends Customer
             TableRelation=book."No.";
             CaptionML=ENU='Second Favorite Book';
         }
+        field(50103;ThirdFavoriteBook;Code[10])  //This was added!
+        {
+            TableRelation=book."No.";
+            CaptionML=ENU='Third Favorite Book';
+        }
+        
     }
 }

@@ -8,10 +8,6 @@ pageextension 50101 CustomerCardExtension extends "Customer Card"
             {
                 ApplicationArea = All;
             }
-            field(ThirdFavoriteBook;ThirdFavoriteBook)
-            {
-                ApplicationArea = All;
-            }
         }
     }
 }
